@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body class="bg-paleBlue md:relative">
+      <img class="hidden min-w-full md:block md:absolute md:-top-32" src="images/pattern-background-desktop.svg" alt="">
+      <main
+      class="flex justify-center items-center min-h-screen font-redHatDisplay md:absolute md:left-[40%]"
+      >
+      <div class="flex flex-col items-center mx-4 rounded-2xl bg-white md:w-96">
+        <img class="rounded-t-2xl md:w-full" src="images/illustration-hero.svg" alt="" />
+        <h1 class="text-2xl font-bold py-6">Order Summary</h1>
+        <p class="pb-4 text-desaturatedBlue text-center md:w-80">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div
+          class="flex items-center p-4 w-80 space-x-14 bg-verypPaleBlue rounded-2xl"
+        >
+          <div class="flex space-x-4">
+            <img src="images/icon-music.svg" alt="" />
+            <div class="flex flex-col">
+              <p class="text-lg font-bold">Annual Plan</p>
+              <p class="text-desaturatedBlue">$55.99/year</p>
+            </div>
+          </div>
+          <p class="text-brightBlue font-bold underline decoration-brightBlue hover:text-darkBlue hover:cursor-pointer">
+            Change
+          </p>
+        </div>
+        <button class="mt-6 p-4 w-80 text-white font-bold bg-brightBlue rounded-xl shadow-2xl hover:bg-darkBlue">Proceed to Payment</button>
+        <button class="p-4 mt-2 mb-6 w-80 text-desaturatedBlue font-bold hover:text-black">Cancel Order</button>
+      </div>
+    </main>
+  </body>
+</html>
